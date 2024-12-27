@@ -8,7 +8,7 @@ using DAL.UnitOfWork;
 
 namespace BLL.Services.Impl
 {
-    internal class TicketService 
+    public class TicketService 
         : ITicketService
     {
         private readonly IUnitOfWork _datebase;
